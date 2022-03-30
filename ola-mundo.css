@@ -35,3 +35,18 @@ h1 , h2 {
   width: 300px;
 }
 
+.quadro{
+    background-color: black;
+    width: 232px;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+}
+button{
+    background-color: black;
+}
+.portrait{
+    width: 100px;
+    height: 100px;
+}
