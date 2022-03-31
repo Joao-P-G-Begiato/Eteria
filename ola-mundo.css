@@ -50,3 +50,46 @@ button{
     width: 100px;
     height: 100px;
 }
+
+.tooltip{
+    position: relative;
+    display:inline-block
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width:100px;
+    color:blue;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width:700px){
+    #corpo{
+        background-color: black;
+        color: white;
+        border: 5px; border-color: white; border-style: solid;
+    }
+
+    .grupo1{
+        border-color:white
+    }
+    .quadro{
+        background-color: white;
+    }
+    button{
+        background-color: white;
+    }
+}
