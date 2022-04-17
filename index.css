@@ -37,18 +37,21 @@ h1 , h2 {
 
 .quadro{
     background-color: black;
-    width: 232px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-flow: row wrap;
     align-self: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
 }
-button{
-    background-color: black;
-}
+
 .portrait{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
+    border: 10px black solid;
+    border-radius: 50px;
 }
 
 .tooltip{
@@ -65,8 +68,8 @@ button{
     border-radius: 6px;
     position: absolute;
     z-index: 1;
-    bottom: 80%;
-    left: 50%;
+    bottom: 70%;
+    left: 55%;
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -74,6 +77,12 @@ button{
 .tooltip:hover .tooltiptext{
     visibility: visible;
     opacity: 1;
+}
+ 
+#textojs{
+    align-self: center;
+    font-size: 110%;
+    font-weight: bolder;
 }
 
 @media (max-width:700px){

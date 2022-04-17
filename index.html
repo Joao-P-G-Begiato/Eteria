@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial scale=1.0">
 <title> Eteria, o Reino dos Heróis </title>
 <link rel="stylesheet" href="./index.css">
+<script language="JavaScript" src="./index.js"> </script>
 </head>
 
 
@@ -24,7 +25,7 @@
 
           </p></em>
         <div class="grupo1">
-         <img id="grupo1" src="https://scontent.fvcp2-1.fna.fbcdn.net/v/t39.30808-6/277581980_5397822513570665_5664030408055462631_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeEOU6s7xVnxfFR-9YoYHQNpMdHBvF44xhsx0cG8XjjGG6mSnzTJBK-Gtcw-ZwoJZa0FoUOo7v1DiHnzIq9T-vaE&_nc_ohc=G99OIb9asKEAX8HYTk-&_nc_ht=scontent.fvcp2-1.fna&oh=00_AT-rxWLE1UcNnJ_7y3gBdfAM9Ik-2uO3xGkh7i6GntFinQ&oe=624C8C22">
+         <img id="grupo1" src="https://i.postimg.cc/0jN2Hpnb/Capturar.png">
         </div>
         <h3> Um pouco mais sobre nossos aventureiros </h3>
           <em class="em2"> Clique na imagem de um aventureiro para saber um pouquinho mais sobre ele: </em>
@@ -32,26 +33,37 @@
       
           <div class="quadro"> 
          <div class="tooltip">   
-        <button type="button"> <img class="portrait" src="https://scontent.fvcp2-1.fna.fbcdn.net/v/t39.30808-6/277364824_5388927617793488_5824894107423863493_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeFAF2H4bwwyQTOUL8j80zeIXr7H7GAMgLtevsfsYAyAu5JqZY0tPo3jDMCMCWyF4nM0kWAvWEzPHWNf8iTjlkOV&_nc_ohc=aKpTS3-RjXwAX9dwr_x&_nc_ht=scontent.fvcp2-1.fna&oh=00_AT9BkUZMoceokar0qFZghQkHmnncVxw30eZRUL7qDqevDA&oe=6248E07E"> </button>
+         <img class="portrait" src="https://i.postimg.cc/7bDK54Mc/Dart.png"> 
         <span class="tooltiptext"> <a href="./dart.html"> Dart </a> </span>
          </div>
          <div class="tooltip">   
-        <button type="button"> <img class="portrait" src="https://scontent.fvcp2-1.fna.fbcdn.net/v/t39.30808-6/277585978_5388927861126797_6724281392149459315_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeEFsL6YhxPY2RkB-KVc0Yg7m6Xa8ylmbUWbpdrzKWZtRbw_9Y_yoDXq0OT5UaArLNYTLlAQA_gAfzvU9P0msMPa&_nc_ohc=SERAI3y1vWYAX_IOhWK&_nc_ht=scontent.fvcp2-1.fna&oh=00_AT8BAMHgCOvJVj910iDQXVZZ0YPCoPE6MbpblZEPzC93mA&oe=624A6E13"> </button>
+         <img class="portrait" src="https://i.postimg.cc/4m2P29kk/Dodge.png"> 
         <span class="tooltiptext"> <a href="./dodge.html"> Dodge </a> </span>
          </div>
          <div class="tooltip">   
-        <button type="button"><img class="portrait" src="https://scontent.fvcp2-1.fna.fbcdn.net/v/t39.30808-6/277373742_5388928397793410_4188321211734800798_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeEJeHP63NRVbJVxE3H0UbYVljBONU4brTKWME41ThutMgrEEOfCiHTNQsoyyHNFmt3wY2ikYBFHDePDXfBKfShW&_nc_ohc=TrhoNhSlq88AX-2hokG&_nc_ht=scontent.fvcp2-1.fna&oh=00_AT8QsnKByU5vXqjS-4M7uBr9p4dWsxJ20aD3hl8Q_Nj1hg&oe=624A485F"> </button>
+       <img class="portrait" src="https://i.postimg.cc/gn24KK7H/Oligron.png"> 
         <span class="tooltiptext"> <a href="./oligron.html"> Oligron </a> </span>
          </div>
          <div class="tooltip">   
-        <button type="button"><img class="portrait" src="https://scontent.fvcp2-1.fna.fbcdn.net/v/t39.30808-6/277444448_5388928754460041_4798233044387597231_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeFZ9VJXVresMCHSnvfOZEhd6kBK0UPphSXqQErRQ-mFJSKHaD9gnD6hKvSRL4zz2joCmy4pn3gjS_2va4gzpfOT&_nc_ohc=ktPYIEwA-qgAX8PKaPT&tn=FG--zbY1Sgnh_Nry&_nc_ht=scontent.fvcp2-1.fna&oh=00_AT8JEy-effbfTq3VtUSOKN0s-roRn0vQ3Z1y80g01VmOfg&oe=62489E97"> </button>
+        <img class="portrait" src="https://i.postimg.cc/14HJ6dvz/Jenny.png"> 
         <span class="tooltiptext"> <a href="./jenny.html"> Jenny </a> </span>
          </div>
-          </p>
+       
       </div>
+      <p id="textojs"> 
+        <script>
+          document.getElementById('textojs').innerHTML = `Caro Aventureiro ${nome}, você gostaria de entrar para o torneio ?`
+          </script>
 
+          <br><a href="./torneio.html"> Sim! Eu quero Participar </a> 
+          <br><a href="./plateia.html"> Não estou interasso, prefiro assitir </a>
 
+      </p>
     </div> 
+    
+    
+
+  
 </body>
 </html>
  
